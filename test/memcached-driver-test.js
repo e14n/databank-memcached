@@ -24,7 +24,11 @@ var assert = require('assert'),
 
 Databank.register('memcached', MemcachedDatabank);
 
-var params = {serverLocations: '127.0.0.1:11211'};
+// We make a lot of connections so use a bigger pool here
+
+var params = {serverLocations: '127.0.0.1:11211',
+              options: {poolSize: 25}
+             };
 
 var suite = databank.DriverTest('memcached', params);
 
