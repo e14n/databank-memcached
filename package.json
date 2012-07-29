@@ -9,7 +9,8 @@
     "description": "Memcached and Couchbase driver for Databank",
     "dependencies": {
         "memcached": "0.0.x", 
-        "databank": "0.14.x"
+        "databank": "0.14.x",
+        "step": "0.0.x"
     },
     "devDependencies": {
         "vows": "0.6.x" 
