@@ -1,6 +1,6 @@
 {
     "name": "databank-memcached",
-    "version": "0.14.0",
+    "version": "0.14.1",
     "engines": { "node": ">=0.6.x" },
     "author": "Evan Prodromou <evan@status.net>",
     "scripts": {"test": "vows test/*-test.js"},
@@ -8,8 +8,8 @@
     "directories": {"lib": "./lib/"},
     "description": "Memcached and Couchbase driver for Databank",
     "dependencies": {
-        "memcached": "0.0.x", 
-        "databank": "0.14.x",
+        "memcached": "0.1.x", 
+        "databank": "0.16.x",
         "step": "0.0.x"
     },
     "devDependencies": {
