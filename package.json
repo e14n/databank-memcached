@@ -8,12 +8,12 @@
     "directories": {"lib": "./lib/"},
     "description": "Memcached and Couchbase driver for Databank",
     "dependencies": {
-        "memcached": "0.1.x", 
-        "databank": "0.16.x",
+        "memcached": "0.2.x", 
+        "databank": "0.18.x",
         "step": "0.0.x"
     },
     "devDependencies": {
-        "vows": "0.6.x" 
+        "vows": "0.7.x" 
     },
     "licenses": [
         {
