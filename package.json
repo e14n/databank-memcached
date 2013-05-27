@@ -10,7 +10,8 @@
     "dependencies": {
         "memcached": "0.2.x", 
         "databank": "0.18.x",
-        "step": "0.0.x"
+        "step": "0.0.x",
+        "underscore": "1.4.x"
     },
     "devDependencies": {
         "vows": "0.7.x" 
