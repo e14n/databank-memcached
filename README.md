@@ -7,7 +7,7 @@ Couchbase, too.
 License
 =======
 
-Copyright 2011, 2012, E14N https://e14n.com/
+Copyright 2011-2013, E14N https://e14n.com/
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -27,9 +27,9 @@ Usage
 To create a memcached databank, use the `Databank.get()` method:
 
     var Databank = require('databank').Databank;
-    
+
     var db = Databank.get('memcached', {});
-    
+
 The driver takes the following parameters:
 
 * `schema`: the database schema, as described in the Databank README.
@@ -72,4 +72,3 @@ TODO
 ----
 
 See https://github.com/evanp/databank-memcached/issues
-
